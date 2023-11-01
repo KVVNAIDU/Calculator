@@ -1,0 +1,9 @@
+.wrapper {
+    width: 340px;
+    height: 540px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: burlywood;
+    box-shadow: 4px 4px 8px black  ;
+    background-image: linear-gradient(315deg, #ddac61 0%, #dbd235 74%);
+  }

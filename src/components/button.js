@@ -1,6 +1,7 @@
-import React from "react";
+import "./button.css"
 
-const Button=(props)=> {
-return (<input type="button" value={props.value}/>)
+const Button=({className,value,onClick})=>{
+    return <button className={className} onClick={onClick} >{value}</button>
+
 }
 export default Button;
